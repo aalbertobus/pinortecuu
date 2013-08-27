@@ -1,0 +1,153 @@
+red_ = #fc2223
+body
+	background-image url('../images/background.jpg')
+	background-repeat repeat-x
+	background-attachment fixed
+	background-size auto
+	font-size 16px
+	margin 0
+	padding 0
+	text-align left 
+	vertical-align top
+
+h1 
+	display none
+img 
+	width 100%
+header 
+	margin-top 1em
+	text-align center
+	z-index 1
+	width 100%
+ul 
+	background-color rgba(0, 0, 0, .7)
+	border-top solid 0.2em white
+	border-bottom solid 0.2em white
+	margin 0
+	text-align center
+li 
+	display inline-block
+	margin 1em 2.5em 1em 0
+	a
+		font-size 1.2em
+		font-family: 'Chivo', sans-serif;
+		text-decoration none
+		color white
+	a:hover
+		color red_
+section
+	padding 0
+	text-align center
+	overflow hidden
+	z-index -1
+	width 100%
+#container
+	margin-top 1.5em
+
+#pinorte_header,#pinorte_logo,#pinorte_dates
+	display inline-block
+	margin 2em 0 
+	vertical-align top
+#nav_logo
+	margin-bottom 0.5em
+	width 170px
+#pinorte_header
+	text-align center
+	width 45%
+	img
+		width 400px
+#pinorte_dates
+	margin 2em 0 0 0
+	width 45%
+	img
+		width 350px
+	#pinorte_logo
+		margin 4em 0 0 0 
+		width 100px
+	#pinorte_dates_img
+		margin 5em 0 0 0
+
+footer
+	border-bottom 0.2em white
+	margin-top 2em
+	img
+		margin-top 0.5em
+		vertical-align middle
+		width 50px
+	h2
+		color white
+		display inline-block
+		text-decoration none
+		margin-left 0.5em
+		vertical-align top
+	.social_container
+		border-radius 0.5em
+		margin 0 0.5em
+		margin-top 1.5em
+		display inline-block
+		width 25%
+	.social_container:hover
+		background-color rgba(250, 250, 250, .15)
+	
+//responsive
+
+@media (max-width: 1050px)
+	header
+		margin 0 
+	#pinorte_header
+		width 100%
+		img
+			width 350px
+	#pinorte_logo
+		display none
+		width 90px
+	#pinorte_dates
+		margin-top -0em
+		width 100%
+		img
+			width 300px
+		#pinorte_dates_img
+			margin 0 
+	footer
+		h2
+			font-size 1.2em
+		img
+			margin-top 0.2em
+			width 45px
+	.social_container
+		padding 0 0.3em
+
+#hashtag_container
+	margin-top 2em
+	width 100%
+	#twhash_container
+		background-color rgba(200, 200, 200, .3)
+		border-radius 0.35em
+		margin  0 0 0 2em
+		padding 0 
+		width 255px
+		img,h2
+			display inline-block
+			vertical-align middle
+		img 
+			width 70px
+		h2
+			color white
+	#twhash_container:hover
+		border solid 0.2em black
+#error_legend
+	color white
+	font-weight bold
+
+//settings for animations
+#container,footer,#contact_container,#twhash_container
+	display none
+@import "event_info.styl"
+@import "sponsors.styl"
+
+.info_content
+	margin-top 1em
+	margin-bottom 1em
+
+
+

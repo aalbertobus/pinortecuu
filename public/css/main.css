@@ -1,0 +1,71 @@
+body{background-image:url("../images/background.jpg");background-repeat:repeat-x;background-attachment:fixed;background-size:auto;font-size:16px;margin:0;padding:0;text-align:left;vertical-align:top}
+h1{display:none}
+img{width:100%}
+header{margin-top:1em;text-align:center;z-index:1;width:100%}
+ul{background-color:rgba(0,0,0,0.7);border-top:solid .2em #fff;border-bottom:solid .2em #fff;margin:0;text-align:center}
+li{display:inline-block;margin:1em 2.5em 1em 0;}
+li a{font-size:1.2em;font-family:'Chivo',sans-serif;text-decoration:none;color:#fff}
+li a:hover{color:#fc2223}
+section{padding:0;text-align:center;overflow:hidden;z-index:-1;width:100%}
+#container{margin-top:1.5em}
+#pinorte_header,#pinorte_logo,#pinorte_dates{display:inline-block;margin:2em 0;vertical-align:top}
+#nav_logo{margin-bottom:.5em;width:170px}
+#pinorte_header{text-align:center;width:45%;}
+#pinorte_header img{width:400px}
+#pinorte_dates{margin:2em 0 0 0;width:45%;}
+#pinorte_dates img{width:350px}
+#pinorte_dates #pinorte_logo{margin:4em 0 0 0;width:100px}
+#pinorte_dates #pinorte_dates_img{margin:5em 0 0 0}
+footer{border-bottom:.2em #fff;margin-top:2em;}
+footer img{margin-top:.5em;vertical-align:middle;width:50px}
+footer h2{color:#fff;display:inline-block;text-decoration:none;margin-left:.5em;vertical-align:top}
+footer .social_container{border-radius:.5em;margin:0 .5em;margin-top:1.5em;display:inline-block;width:25%}
+footer .social_container:hover{background-color:rgba(250,250,250,0.15)}
+@media (max-width: 1050px){header{margin:0}
+#pinorte_header{width:100%;}
+#pinorte_header img{width:350px}
+#pinorte_logo{display:none;width:90px}
+#pinorte_dates{margin-top:0;width:100%;}
+#pinorte_dates img{width:300px}
+#pinorte_dates #pinorte_dates_img{margin:0}
+footer h2{font-size:1.2em}
+footer img{margin-top:.2em;width:45px}
+.social_container{padding:0 .3em}
+}#hashtag_container{margin-top:2em;width:100%;}
+#hashtag_container #twhash_container{background-color:rgba(200,200,200,0.3);border-radius:.35em;margin:0 0 0 2em;padding:0;width:255px;}
+#hashtag_container #twhash_container img,#hashtag_container #twhash_container h2{display:inline-block;vertical-align:middle}
+#hashtag_container #twhash_container img{width:70px}
+#hashtag_container #twhash_container h2{color:#fff}
+#hashtag_container #twhash_container:hover{border:solid .2em #000}
+#error_legend{color:#fff;font-weight:bold}
+#container,footer,#contact_container,#twhash_container{display:none}
+h3{color:#fff;margin:0}
+#info_logo{margin-top:1em;opacity:.8;width:150px}
+.info_section{text-align:center;width:100%;}
+.info_section .info_article{margin:1em;text-align:left;}
+.info_section .info_article .info_title{background-color:rgba(255,255,255,0.07);border-top:solid .15em #ccc;border-bottom:solid .15em #ccc;margin:.5em 0;padding:.5em 0;}
+.info_section .info_article .info_title h1{color:#eee;font-size:2.5em;display:inline}
+.info_section .info_article .info_content{margin:1em 0;}
+.info_section .info_article .info_content p,.info_section .info_article .info_content .info_list{color:#ddd;font-size:1.5em;padding:0 10%}
+.info_section .info_article .info_subtitle{color:#ddd;font-weight:bold}
+.info_section .info_article .info_list{background:none;border:none;text-align:left;margin:0;padding:0;}
+.info_section .info_article .info_list span{font-weight:bold}
+.info_section .info_article .info_list li{width:100%;margin:.5em 0}
+.info_section .info_article a{color:#ddd;font-size:1.2em;font-weight:bold;text-decoration:underline;padding:0 .5em;border-radius:.3em;background-color:rgba(250,250,250,0.3)}
+.info_section .info_article a:hover{color:#000}
+.info_content .social_container{text-align:center;}
+.info_content .social_container a{background:none}
+.info_content{display:none}
+.info_article .info_content a{background:none;text-decoration:none}
+.sponsor_img{margin:5em 1em;text-align:center;display:none;-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:grayscale(100%);filter:url("grayscale.svg#greyscale");filter:#808080;opacity:.5}
+.sponsor_img img{margin:1em .5em;width:220px;-webkit-filter:grayscale(100%)}
+.sponsor_img:hover{-moz-filter:grayscale(0%);-ms-filter:grayscale(0%);-o-filter:grayscale(0%);filter:grayscale(0%);opacity:1}
+.sponsor_img:hover img{-webkit-filter:grayscale(0%)}
+#chrome_img{width:90px}
+#gatoverde_img,#lafina_img{width:150px}
+#ff_img{width:100px}
+#unknown_img,#ds_img,#delorean_img{width:150px}
+#purefix_img,#freaky_img,#labella_img,#treintaytres_img{width:130px}
+#cano_img,#sumar_img,#fusion_img{width:120px}
+#yy_img,#faton_img{width:160px}
+.info_content{margin-top:1em;margin-bottom:1em}
