@@ -1,4 +1,4 @@
-body{background-image:url("../images/background.jpg");background-repeat:repeat-x;background-attachment:fixed;background-size:auto;font-size:16px;margin:0;padding:0;text-align:left;vertical-align:top}
+body{background-image:url("../images/background.jpg");background-repeat:repeat-x;background-attachment:fixed;background-size:1400px 1100px;font-size:16px;margin:0;padding:0;text-align:left;vertical-align:top}
 h1{display:none}
 img{width:100%}
 header{margin-top:1em;text-align:center;z-index:1;width:100%}
@@ -64,8 +64,8 @@ h3{color:#fff;margin:0}
 #chrome_img{width:90px}
 #gatoverde_img,#lafina_img{width:150px}
 #ff_img{width:100px}
-#unknown_img,#ds_img,#delorean_img,#state_img,#mitote_img{width:150px}
-#purefix_img,#freaky_img,#labella_img,#treintaytres_img{width:130px}
+#unknown_img,#ds_img,#delorean_img,#state_img{width:150px}
+#purefix_img,#freaky_img,#labella_img,#treintaytres_img,#mitote_img{width:130px}
 #cano_img,#sumar_img,#fusion_img{width:120px}
-#yy_img,#faton_img{width:160px}
+#yy_img,#faton_img,#oxxo_img,#cyclecity_img,#cuarenta_img,#bz_img,#corona_img,#fyxation_img{width:180px}
 .info_content{margin-top:1em;margin-bottom:1em}
